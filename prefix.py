@@ -13,8 +13,9 @@ for i in range(0,n-1):
       
       if(m[j]!=h[j]):
          pre=m[:j]
+         l1=len(pre)
          break
-      else:
+      elif(j==l1-1):
          pre=m[:l1]
    
 print(pre)
