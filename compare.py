@@ -8,7 +8,7 @@ l=len(a)
 l1=len(b)
 le=min(l,l1)
 
-dif=l1-l
+dif=abs(l1-l)
 
 for i in range(0,le):
      
