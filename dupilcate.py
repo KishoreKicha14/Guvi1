@@ -1,4 +1,6 @@
-n=list(map(int,input().split()))
+l= int(input())
+arr = input()
+n = list(map(int,arr.split(' '))) 
 n.sort()
 d=[]
 counter=1
