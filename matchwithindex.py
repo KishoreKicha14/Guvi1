@@ -6,5 +6,5 @@ for i in range(0,m):
       l.append(str(i))
 if l==[]:
    l.append(str(-1))
-l="".join(l)
+l=" ".join(l)
 print(l)
