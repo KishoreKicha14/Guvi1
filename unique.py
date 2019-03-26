@@ -1,9 +1,10 @@
-l= int(input())
-arr = input()
-n = list(map(int,arr.split(' '))) 
+m=int(input())
+n=input().split()
+for i in range(0,m):
+   n.insert(i,int(n[i]))
+   n.remove(n[i+1])
 n.sort()
 d=[]
-counter=1
 f=0
 
 for i in range(0,len(n)-1):
@@ -20,3 +21,4 @@ for i in d:
    n.remove(i)
    n.remove(i)
 print(n[0])
+
