@@ -10,10 +10,10 @@ gt=max(len(m),len(l))
 
    
 for i in m:
-   print(i)
+   
    lis.append(ord(i))
 for i in l:
-   print(i)
+   
    k.append(ord(i))
 if gt==len(m):
    d=lis
