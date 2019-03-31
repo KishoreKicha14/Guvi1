@@ -7,7 +7,7 @@ while temp > 0:
    sum += digit ** 3  
    temp //= 10  
   
-if num == sum:  
+if n == sum:  
    print("yes")  
 else:  
    print("no")  
