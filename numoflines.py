@@ -1,6 +1,6 @@
 m=input()
-c=0
+c=1
 for i in m:
-   if(i=="\n"):
+   if(i=="."):
       c=c+1
 print(c)
