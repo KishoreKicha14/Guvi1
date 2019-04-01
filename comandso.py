@@ -9,5 +9,7 @@ for i in range(n-1):
       m.append(int(r[i]))
    m.sort()
 
-
+for i in range(0,len(m)):
+      m.insert(i,str(m[i]))
+      m.remove(m[i+1])
 print(" ".join(m))
