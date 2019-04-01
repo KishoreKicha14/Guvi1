@@ -12,4 +12,7 @@ for i in range(0,len(n)):
    n.insert(i,int(n[i]))
    n.remove(n[i+1])
 printRepeating(n,m-1)
-print(lis[0])
+if lis==[]:
+   print("unique")
+else:
+   print(lis[0])
