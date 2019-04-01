@@ -1,5 +1,5 @@
 n=input()
-l=""
+l=[]
 for i in n:
-   l=i+l
-print(l)
+   l.insert(0,i)
+print("".join(l))
