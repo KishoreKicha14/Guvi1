@@ -1,6 +1,5 @@
 m=int(input())
 n=input().split()
-c=0
 for i in range(0,len(n)):
    n.insert(i,int(n[i]))
    n.remove(n[i+1])
