@@ -1,3 +1,4 @@
+m=int(input())
 a=[int(s) for s in input().split()]
 d=[]
 for i in range(len(a)):
@@ -11,6 +12,7 @@ for i in range(len(a)):
 for i in range(len(d)):
    d[i]=str(d[i])
 print(" ".join(d))
+      
       
       
 
