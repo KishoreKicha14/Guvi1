@@ -3,9 +3,14 @@ d=[]
 for i in range(len(a)):
    p=1
    for j in range(len(a)):
-      if(a[i]==a[j]):
+      if(i==j):
          pass
       else:
          p=p*a[j]
    d.append(p)
+for i in range(len(d)):
+   d[i]=str(d[i])
 print(" ".join(d))
+      
+      
+
