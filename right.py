@@ -1,7 +1,5 @@
-N=int(raw_input())
-b=1
-for i in range(N):
-  for j in range(N):
-    print(b,end=' ')
-  print("\r")
-  N=N-1
+n=int(input())
+for i in range(n):
+   for j in range(n-i):
+      print(1,end=" ")
+   print()
