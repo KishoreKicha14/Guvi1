@@ -11,8 +11,9 @@ def prime(n):
 
 c=0
 n=[int(s) for s in input().split()]
-for i in(n[0],n[1]):
-   for j in range(i+1,n[1]):
+for i in(n[0],n[1]+2):
+   for j in range(i+1,n[1]+2):
       if(prime(i+j)):
          c=c+1
 print(c)
+      
