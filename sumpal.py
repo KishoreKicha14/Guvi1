@@ -6,6 +6,6 @@ for i in m:
 for i in str(sum):
    a=i+a
 if str(sum)==a:
-   print("yes")
+   print("YES")
 else:
-   print("no")
+   print("NO")
