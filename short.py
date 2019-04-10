@@ -1,6 +1,5 @@
 n=[str(i) for i in input()]
 c=0
-s=""
 d=[]
 for i in range(len(n)-1):
    if(n[i]==n[i+1]):
@@ -20,7 +19,7 @@ for i in range(len(n)-1):
          d.append(g)
 for i in d:
    if(i[0]!=1):
-      s=s+str(i[0])+"*"+i[1]
+      print(str(i[0])+"*"+i[1],end="")
    else:
-      s=s+i[1]
-print(s)
+      print(i[1],end="")
+
