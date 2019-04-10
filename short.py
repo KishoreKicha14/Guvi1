@@ -1,4 +1,4 @@
-n=[str(i) for i in input()]
+n=[str(s) for s in input()]
 c=0
 d=[]
 for i in range(len(n)-1):
