@@ -1,4 +1,4 @@
-n=[str(i) for i in input()]
+n=[str(s) for s in input()]
 f=0
 d=[]
 for i in range(len(n)-1):
@@ -11,4 +11,4 @@ for i in range(len(n)-1):
       f=0
 p=min(d)
 del n[p[1]]
-print("".join(n)
+print("".join(n))
