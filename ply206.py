@@ -1,3 +1,4 @@
+l=0
 m=input()
 r=[]
 for i in m:
