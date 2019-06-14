@@ -11,7 +11,7 @@ for i in m:
         if(r==0):
              f=0
 if(f==0):
-    print("no")
+    print("No")
 else:
-    print("yes")
+    print("Yes")
 
