@@ -6,4 +6,4 @@ for i in n:
     else:
         f[i]=1
 r=max(f,key=f.get)
-print(f[r])
+print(r)
