@@ -1,3 +1,7 @@
 n=input()
-print(n[0]+n[3])
+if(len(n)>=4):
+    print(n[0]+n[3])
+else:
+    print(n[0])
+
 
