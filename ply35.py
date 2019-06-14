@@ -1,13 +1,14 @@
-n=input()
-f={}
+n=int(input())
 r=[]
-for i in n:
-    if(i in f):
-        f[i]+=1
-    else:
-        f[i]=1
-r=min(f,key=f.get)
-print(f[r])
-for i in f:
-    if(f[i]==f[r])and(i!=" "):
-        print(i,end=" ")
+for i in range(n):
+    r.append([int(s) for s in input().split()])
+l=1
+re=1
+le=n-1
+st=0
+for i in range(n):
+   l=l*r[i][st]
+   st=st+1
+   re=re*r[i][le]
+   le=le-1
+print(l+re)
