@@ -6,5 +6,6 @@ def catalan(n):
         res+=catalan(i)*catalan(n-i-1)
         print(res,i)
     return res
-for i in range(int(input())):
-    print(catalan(i))
+for i in range(4):
+    r.append(str(catalan(i)))
+print(" ".join(r))
