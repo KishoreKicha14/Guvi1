@@ -1,2 +1,2 @@
-i=input()
-print(ord(i))
+ascii=input()
+print(ord(ascii))
