@@ -1,3 +1,3 @@
-import math
-n=float(input())
-print(math.ceil(n))
+import math as ma
+m=float(input())
+print(ma.ceil(m))
