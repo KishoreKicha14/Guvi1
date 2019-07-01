@@ -1,5 +1,6 @@
-n=[int(s) for s in input().split()]
+n=input()
 p=1
 for i in n:
-    p=p*i
+    p=p*int(i)
 print(p)
+
