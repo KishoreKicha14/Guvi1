@@ -1,1 +1,2 @@
-print(ord(input()))
+i=input()
+print(ord(i))
