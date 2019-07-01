@@ -1,2 +1,2 @@
-p=[int(s) for s in input().split()]
-print(p[0]+(p[1]-1)*p[2])
+n=[int(s) for s in input().split()]
+print(n[0]+(n[1]-1)*n[2])
