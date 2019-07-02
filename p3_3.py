@@ -1,0 +1,22 @@
+n=input()
+x=0
+y=0
+d=1
+for i in n:
+    if(i=="R"):
+        d=(d+1)%4
+    elif(i=="L"):
+        d=(4+d-1)%4
+    else:
+        if(d==1):
+            y=y+1
+        elif(d==2):
+            x=x+1
+        elif(d==3):
+            y=y-1
+        else:
+            x=x-1
+if(x==0)and(y==0):
+    print("yes")
+else:
+    print("no")
