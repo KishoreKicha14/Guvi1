@@ -1,3 +1,4 @@
+n=input()
 b =[int(s) for s in input().split()]
 m=1
 l=1
