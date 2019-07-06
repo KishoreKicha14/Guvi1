@@ -1,7 +1,7 @@
 n=input()
 r=[]
 d=[]
-h=[]
+l=[]
 for i in n:
     if(i.isdigit()):
         d.append(i)
@@ -15,7 +15,7 @@ for i in range(1,len(r)):
     k="".join(p[1:])
     if(int(k)%2==0):
         for j in range(int(k)):
-            h.append(p[0])
+            l.append(p[0])
     else:
-        h.extend(p)
-print("".join(h))  
+        l.extend(p)
+print("".join(l))  
