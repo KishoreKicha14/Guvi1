@@ -11,11 +11,11 @@ for i in range(n[0]):
         l.append(m[j][i])
         l.sort()
     r.append(l)
-m=[]
+ma=[]
 for i in range(n[1]):
-    l=[]
+    la=[]
     for j in range(n[0]):
-      l.append(str(r[j][i]))
-    m.append(l)        
-for i in m:
+      la.append(str(r[j][i]))
+    ma.append(la)        
+for i in ma:
     print(" ".join(i))
