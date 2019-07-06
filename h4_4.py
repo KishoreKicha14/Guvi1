@@ -1,4 +1,7 @@
 from itertools import permutations
-pu=permutations(input())
-for i in pu:
-    print("".join(list(i)))
+p=permutations(input())
+l=[]
+for i in p:
+    if(i not in l):
+        print("".join(list(i)))
+        l.append(i)
