@@ -1,11 +1,11 @@
-n=int(input())
-if n < 1:
+kk=int(input())
+if kk< 1:
    
      print("no")
     
 else:
-   for i in range(2,n):
-       if (n % i) == 0:
+   for i in range(2,kk):
+       if (kk % i) == 0:
            print("no")
            break
            
