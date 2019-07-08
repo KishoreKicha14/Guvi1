@@ -7,6 +7,6 @@ for i in n:
     elif i.isalpha():
         s=1
 if(s==1)and(f==1):
-    print("yes")
+    print("Yes")
 else:
-    print("no")
+    print("No")
