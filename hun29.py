@@ -8,5 +8,5 @@ def kadane(A):
     return g
 m=int(input())
 n=[int(s) for s in input().split()]
-k=kadane(n)
-print(k)
+j=kadane(n)
+print(j)
