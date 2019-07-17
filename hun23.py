@@ -30,4 +30,4 @@ while [b-1,ro-1] not in pos:
   t=[]
   out=temp_out
   temp_out=[]
-print(max(out)
+print(max(out))
