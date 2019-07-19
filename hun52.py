@@ -1,3 +1,4 @@
+#kishore
 rb=int(input())
 if rb==1 or rb==2:
     print(rb)
