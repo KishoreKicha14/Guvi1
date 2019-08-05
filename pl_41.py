@@ -6,4 +6,7 @@ def isPower (x, y):
     while (pow < y): 
         pow = pow * x 
     return (pow == y)
-print(isPower(y,x))
+if(isPower(y,x)==1):
+    print("yes")
+else:
+    print("no")
