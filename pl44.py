@@ -1,3 +1,4 @@
 b,a=input().split()
 a=int(a)
-print(b[a:]+b[:a])
+l=len(b)
+print(b[l-a:]+b[:l-a])
