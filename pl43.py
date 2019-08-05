@@ -1,5 +1,4 @@
-b=input()
-a=input()
+b,a=input().split()
 if a in b:
     print("yes")
 else:
